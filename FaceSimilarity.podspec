@@ -34,8 +34,9 @@ Pod::Spec.new do |s|
   s.ios.source_files = 'ArcFace/ArcFace/**/*'
 
   s.ios.resource_bundles = {
-    'FaceSimilarity' => ['ArcFace/ArcFace/Assets/*']
-    'FaceSimilarity' => ['ArcFace/ArcFace/Base/*']
+    'FaceSimilarity' => ['ArcFace/ArcFace/Assets/*'],
+    '123' => ['ArcFace/ArcFace/Base/*.storyboard'],
+    '456' => ['ArcFace/ArcFace/engines/*.a']
   }
 
   s.ios.public_header_files = 'ArcFace/ArcFace/**/*'
