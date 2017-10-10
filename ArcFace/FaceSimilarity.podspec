@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
     'FaceSimilarity' => ['ArcFace/Assets/*']
   }
 
-  s.ios.public_header_files = 'iOS_RLCrash/*.h'
+  s.ios.public_header_files = 'ArcFace/*.h'
 #   s.dependency 'KSCrash', '~> 1.15.8'
 #   s.dependency 'UICKeyChainStore', '~> 2.1.1'
   # s.frameworks = 'UIKit', 'MapKit'
