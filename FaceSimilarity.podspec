@@ -34,12 +34,11 @@ Pod::Spec.new do |s|
   s.ios.source_files = 'ArcFace/ArcFace/**/*'
 
   s.ios.resource_bundles = {
-    'FaceSimilarity' => ['ArcFace/ArcFace/Assets/*'],
-    '123' => ['ArcFace/ArcFace/Base/*.storyboard'],
-    '456' => ['ArcFace/ArcFace/engines/*.a']
+    'FaceSimilarity' => ['ArcFace/ArcFace/Image/*'],
+    '123' => ['ArcFace/ArcFace/Base.lproj/*.storyboard']
   }
-
-  s.ios.public_header_files = 'ArcFace/ArcFace/**/*'
+  s.frameworks = 'libarcsoft_fsdk_face_detection','libarcsoft_fsdk_face_recognition','libarcsoft_fsdk_face_tracking','libmpbase','arcsoft_face_base','libarcsoft_fsdk_base','libarcsoft_mobilecv','libstdc++'
+  s.ios.public_header_files = 'ArcFace/ArcFace/**/*.h'
 #   s.dependency 'KSCrash', '~> 1.15.8'
 #   s.dependency 'UICKeyChainStore', '~> 2.1.1'
   # s.frameworks = 'UIKit', 'MapKit'

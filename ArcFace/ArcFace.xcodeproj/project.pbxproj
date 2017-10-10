@@ -11,6 +11,7 @@
 		57085CD51F8C70D900F50F1C /* GLProgram.m in Sources */ = {isa = PBXBuildFile; fileRef = 57085CCA1F8C70D900F50F1C /* GLProgram.m */; };
 		57085CD61F8C70D900F50F1C /* FSDKFR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57085CCC1F8C70D900F50F1C /* FSDKFR.xcdatamodeld */; };
 		57085CD91F8C711100F50F1C /* AFRCDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 57085CD81F8C711100F50F1C /* AFRCDManager.m */; };
+		57085CDC1F8C92DF00F50F1C /* Mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 57085CDB1F8C92DF00F50F1C /* Mask.png */; };
 		57D6BF3D1F7DF32E00956529 /* libmpbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D6BF2A1F7DF32D00956529 /* libmpbase.a */; };
 		57D6BF3E1F7DF32E00956529 /* libarcsoft_mobilecv.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D6BF2B1F7DF32D00956529 /* libarcsoft_mobilecv.a */; };
 		57D6BF3F1F7DF32E00956529 /* arcsoft_face_base.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57D6BF2C1F7DF32D00956529 /* arcsoft_face_base.a */; };
@@ -22,7 +23,6 @@
 		77D55EB91F2ECF2E00605942 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D55EB81F2ECF2E00605942 /* AppDelegate.m */; };
 		77D55EBC1F2ECF2E00605942 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D55EBB1F2ECF2E00605942 /* ViewController.m */; };
 		77D55EBF1F2ECF2F00605942 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D55EBD1F2ECF2F00605942 /* Main.storyboard */; };
-		77D55EC41F2ECF2F00605942 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77D55EC31F2ECF2F00605942 /* Assets.xcassets */; };
 		77D55EC71F2ECF2F00605942 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77D55EC51F2ECF2F00605942 /* LaunchScreen.storyboard */; };
 		77D55EF61F2EFBF200605942 /* AFCameraController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D55EF51F2EFBF200605942 /* AFCameraController.m */; };
 		77D55F071F2F167300605942 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 77D55F061F2F167300605942 /* Utility.m */; };
@@ -41,6 +41,7 @@
 		57085CCF1F8C70D900F50F1C /* GLShader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShader.h; sourceTree = "<group>"; };
 		57085CD71F8C711100F50F1C /* AFRCDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFRCDManager.h; sourceTree = "<group>"; };
 		57085CD81F8C711100F50F1C /* AFRCDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFRCDManager.m; sourceTree = "<group>"; };
+		57085CDB1F8C92DF00F50F1C /* Mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mask.png; sourceTree = "<group>"; };
 		57D6BF251F7DF32D00956529 /* asvloffscreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asvloffscreen.h; sourceTree = "<group>"; };
 		57D6BF261F7DF32D00956529 /* amcomdef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amcomdef.h; sourceTree = "<group>"; };
 		57D6BF271F7DF32D00956529 /* ammem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ammem.h; sourceTree = "<group>"; };
@@ -62,7 +63,6 @@
 		77D55EBA1F2ECF2E00605942 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		77D55EBB1F2ECF2E00605942 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		77D55EBE1F2ECF2F00605942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		77D55EC31F2ECF2F00605942 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		77D55EC61F2ECF2F00605942 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77D55EC81F2ECF2F00605942 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77D55EF41F2EFBF200605942 /* AFCameraController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFCameraController.h; sourceTree = "<group>"; };
@@ -97,6 +97,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57085CDA1F8C92DF00F50F1C /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				57085CDB1F8C92DF00F50F1C /* Mask.png */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		57D6BF221F7DF32D00956529 /* engines */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,6 +244,7 @@
 		77D55EB31F2ECF2E00605942 /* ArcFace */ = {
 			isa = PBXGroup;
 			children = (
+				57085CDA1F8C92DF00F50F1C /* Image */,
 				57085CD71F8C711100F50F1C /* AFRCDManager.h */,
 				57085CD81F8C711100F50F1C /* AFRCDManager.m */,
 				57085CCC1F8C70D900F50F1C /* FSDKFR.xcdatamodeld */,
@@ -260,7 +269,6 @@
 				77D55F061F2F167300605942 /* Utility.m */,
 				77D55EBD1F2ECF2F00605942 /* Main.storyboard */,
 				77D55EC51F2ECF2F00605942 /* LaunchScreen.storyboard */,
-				77D55EC31F2ECF2F00605942 /* Assets.xcassets */,
 				77D55EC81F2ECF2F00605942 /* Info.plist */,
 				77D55EB41F2ECF2E00605942 /* Supporting Files */,
 			);
@@ -342,8 +350,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57085CDC1F8C92DF00F50F1C /* Mask.png in Resources */,
 				77D55EC71F2ECF2F00605942 /* LaunchScreen.storyboard in Resources */,
-				77D55EC41F2ECF2F00605942 /* Assets.xcassets in Resources */,
 				77D55EBF1F2ECF2F00605942 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -32,7 +32,7 @@
                                         <color key="textColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mask" translatesAutoresizingMaskIntoConstraints="NO" id="8YO-sU-RPF">
+                                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Mask.png" translatesAutoresizingMaskIntoConstraints="NO" id="8YO-sU-RPF">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -130,6 +130,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Mask" width="414" height="736"/>
+        <image name="Mask.png" width="414" height="736"/>
     </resources>
 </document>
