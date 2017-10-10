@@ -31,13 +31,13 @@ Pod::Spec.new do |s|
   s.platform              = :ios, '8.0'
   s.ios.deployment_target = '8.0'
 
-  s.ios.source_files = 'ArcFace/*'
+  s.ios.source_files = 'ArcFace/ArcFace/*'
 
   s.ios.resource_bundles = {
-    'FaceSimilarity' => ['ArcFace/Assets/*']
+    'FaceSimilarity' => ['ArcFace/ArcFace/Assets/*']
   }
 
-  s.ios.public_header_files = 'ArcFace/*.h'
+  s.ios.public_header_files = 'ArcFace/ArcFace/*.h'
 #   s.dependency 'KSCrash', '~> 1.15.8'
 #   s.dependency 'UICKeyChainStore', '~> 2.1.1'
   # s.frameworks = 'UIKit', 'MapKit'
