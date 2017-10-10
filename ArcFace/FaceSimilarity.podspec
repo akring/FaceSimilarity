@@ -21,23 +21,23 @@ Pod::Spec.new do |s|
 通过调用ArcFace的类库，实时检测人脸和手持的证件照片是否一致，用于做实名判断的一个辅助
                        DESC
 
-  s.homepage         = 'http://10.1.101.38/MobileDev/iOS_RLCrash'
+  s.homepage         = 'https://github.com/akring/FaceSimilarity'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '吕俊' => 'akring@163.com' }
-  s.source           = { :git => 'http://10.1.101.38/MobileDev/iOS_RLCrash', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/akring/FaceSimilarity.git', :tag => "#{s.version}" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform              = :ios, '8.0'
   s.ios.deployment_target = '8.0'
 
-  s.ios.source_files = 'iOS_RLCrash/Classes/*'
+  s.ios.source_files = 'ArcFace/*'
 
   s.ios.resource_bundles = {
-    'iOS_RLJSBridge' => ['iOS_RLCrash/Assets/*']
+    'FaceSimilarity' => ['ArcFace/Assets/*']
   }
 
-  s.ios.public_header_files = 'iOS_RLCrash/Classes/*.h'
+  s.ios.public_header_files = 'iOS_RLCrash/*.h'
 #   s.dependency 'KSCrash', '~> 1.15.8'
 #   s.dependency 'UICKeyChainStore', '~> 2.1.1'
   # s.frameworks = 'UIKit', 'MapKit'
